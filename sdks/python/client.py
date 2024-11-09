@@ -11,7 +11,7 @@ else:
     print("Python 2.X detected")
     import SocketServer as ss
 
-
+# This is a comment
 class NetworkHandler(ss.StreamRequestHandler):
     def handle(self):
         game = Game()
